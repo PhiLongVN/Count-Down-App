@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Frontend Mentor | Launch countdown timer</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 30px;
+        padding: 1rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>We're launching soon</h1>
+
+      <main class="time-block">
+        <!-- day -->
+        <div class="block">
+          <div class="time day"></div>
+          <span>Days</span>
+        </div>
+
+        <!-- hour -->
+        <div class="block">
+          <div class="time hour"></div>
+          <span>Hours</span>
+        </div>
+
+        <!-- minute -->
+        <div class="block">
+          <div class="time minute"></div>
+          <span>Minutes</span>
+        </div>
+
+        <!-- second -->
+        <div class="block">
+          <div class="time second">55</div>
+          <span>Seconds</span>
+        </div>
+      </main>
+
+      <div class="icon">
+        <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href=""><ion-icon name="logo-pinterest"></ion-icon></a>
+        <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Huynh Phi Long</a>.
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
