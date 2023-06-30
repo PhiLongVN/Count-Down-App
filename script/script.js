@@ -1,12 +1,12 @@
 /* ============================================ */
 /*                  COUNT DOWN                  */
 /* ============================================ */
-let future = new Date("02,01,2022").getTime();
+let future = new Date('1,01,2025').getTime();
 
-const secondText = document.querySelector(".second");
-const minuteText = document.querySelector(".minute");
-const hourText = document.querySelector(".hour");
-const dayText = document.querySelector(".day");
+const secondText = document.querySelector('.second');
+const minuteText = document.querySelector('.minute');
+const hourText = document.querySelector('.hour');
+const dayText = document.querySelector('.day');
 
 function getTime() {
   let now = new Date().getTime();
